@@ -59,3 +59,13 @@
 
         modified:   README.md
         modified:   apps/main/views.py 
+
+
+#### 4.3 Pagination
+
+        modified:   README.md
+        modified:   apps/main/views.py
+        new file:   templates/main/inc/recent_jobs.html
+        new file:   templates/main/inc/recent_jobs_header.html
+        new file:   templates/main/inc/recent_jobs_pagination.html
+        modified:   templates/main/index.html

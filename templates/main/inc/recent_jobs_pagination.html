@@ -1,0 +1,39 @@
+{% load static %}
+
+<div class="row mt-5">
+  {% if is_paginated %}
+    <div class="col text-center">
+      <div class="block-27">
+        <ul>
+
+          <!-- If page has previous > show &lt; less then without link -->
+          {% if page_obj.has_previous %}
+            <li><a href="?page={{ page_obj.previous_page_number}}">&lt;</a></li>
+          <!-- If page has no previous > show &lt;  -->
+          {% else %}                
+            <li class="disable"><span>&lt;</span></li>
+          <!-- End the if  -->
+          {% endif %}
+
+          <!-- How many pages do we heve  -->
+          {% for i in paginator.page_range %}
+            {% if page_obj.number == i %}
+              <li class="active"><span>{{ i }}</span></li>
+            {% else %}
+              <li><a href="?page={{ i }}">{{ i }}</a></li>
+            {% endif %}
+          {% endfor %}
+
+          <!-- If page has next > show &gt; greater then -->
+          {% if page_obj.has_next %}
+            <li><a href="?page={{ page_obj.next_page_number }}">&gt;</a></li>
+						<!-- If page has no next > show &gt; greater then without link-->	                
+          {% else %}
+            <li class="disable"><a href="#">&gt;</a></li>
+          {% endif %}
+          
+        </ul>
+      </div>
+    </div>
+  {% endif %}
+</div>
