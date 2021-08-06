@@ -14,3 +14,6 @@ class HomeView(ListView):
 	model = Job
 	context_object_name = 'jobs'	
 	template_name = 'main/index.html'
+
+	def get_queryset(self):
+		return self.model.objects.filter(status='published')

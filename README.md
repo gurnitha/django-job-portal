@@ -42,9 +42,20 @@
         modified:   apps/job/models.py
 
 
-#### 3.3 Add, retrieve and display jobs on home page
+### --------------------
+### 4. DISPLAYING JOBS
+### --------------------
+
+
+#### 4.1 Add, retrieve and display jobs on home page
 
         modified:   README.md
         modified:   apps/main/urls.py
         modified:   apps/main/views.py
         modified:   templates/main/index.html
+
+
+#### 4.2 Filtering jobs list by draft and pubished
+
+        modified:   README.md
+        modified:   apps/main/views.py 
