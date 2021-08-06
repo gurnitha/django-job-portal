@@ -32,5 +32,11 @@
 ### ---------------------
 
 
-### 3.1 Create a new app 'apps/job' and register it to project
+#### 3.1 Create a new app 'apps/job' and register it to project
 
+
+#### 3.2 Create Job model
+
+        modified:   README.md
+        modified:   apps/job/admin.py
+        modified:   apps/job/models.py
