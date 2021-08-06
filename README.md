@@ -40,3 +40,11 @@
         modified:   README.md
         modified:   apps/job/admin.py
         modified:   apps/job/models.py
+
+
+#### 3.3 Add, retrieve and display jobs on home page
+
+        modified:   README.md
+        modified:   apps/main/urls.py
+        modified:   apps/main/views.py
+        modified:   templates/main/index.html

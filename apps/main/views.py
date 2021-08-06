@@ -2,9 +2,15 @@
 
 # Django modules
 from django.shortcuts import render
+from django.views.generic import ListView 
+
+# Locals
+from apps.job.models import Job 
 
 # Create your views here.
 
 # Homepage views
-def home_page(request):
-	return render(request, 'main/index.html')
+class HomeView(ListView):
+	model = Job
+	context_object_name = 'jobs'	
+	template_name = 'main/index.html'
