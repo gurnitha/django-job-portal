@@ -81,3 +81,10 @@
         modified:   README.md
         modified:   apps/job/admin.py
         modified:   apps/job/models.py
+
+
+#### 5.2 Retrieve and display categories data in home page
+
+        modified:   README.md
+        modified:   apps/main/views.py
+        modified:   templates/main/index.html

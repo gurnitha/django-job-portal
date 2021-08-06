@@ -5,7 +5,7 @@ from django.shortcuts import render
 from django.views.generic import ListView 
 
 # Locals
-from apps.job.models import Job 
+from apps.job.models import Job, Category 
 
 # Create your views here.
 
@@ -14,7 +14,18 @@ class HomeView(ListView):
 	model 				= Job
 	context_object_name = 'jobs'	
 	paginate_by 		= 3
-	template_name 		= 'main/index.html'
 
+	# Filter job display with status published
 	def get_queryset(self):
 		return self.model.objects.filter(status='published')
+
+	# Get all categories
+	def get_context_data(self, **kwargs):
+		context = super(HomeView, self).get_context_data(**kwargs)
+		categories = Category.objects.all()
+		context = {
+			'categories':categories		
+		}
+		return context
+
+	template_name = 'main/index.html'
