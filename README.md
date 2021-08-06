@@ -20,8 +20,9 @@
         modified:   apps/accounts/models.py
         modified:   config/settings.py
 
+#### 2.2 Cusomizing MyUser model, tegister MyUser model to admin and customizing admin display
 
-
-
+        modified:   README.md
+        modified:   apps/accounts/admin.py
 
 
