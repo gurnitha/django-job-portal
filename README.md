@@ -69,3 +69,15 @@
         new file:   templates/main/inc/recent_jobs_header.html
         new file:   templates/main/inc/recent_jobs_pagination.html
         modified:   templates/main/index.html
+
+
+### -------------
+### 5. CATEGORY
+### -------------
+
+
+#### 5.1 Create Category model and add OneToMany relationship with Job model
+
+        modified:   README.md
+        modified:   apps/job/admin.py
+        modified:   apps/job/models.py
