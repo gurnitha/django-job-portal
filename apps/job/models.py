@@ -32,6 +32,11 @@ class Category(models.Model):
         self.slug = slugify(self.title)
         super(Category, self).save(*args,**kwargs)
 
+    # Counting number of jobs in each category
+    def job_count(self):
+        #  'jobs' refer to category field in lien 50: related_name="jobs", 
+        return self.jobs.all().count() # you can add with (+ any number -> + 10) 
+                                       # or multifly with (* any number -> 1000)
 
 # MODEL: Job
 class Job(models.Model):

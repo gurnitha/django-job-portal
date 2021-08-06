@@ -100,3 +100,12 @@
         NOTE:
 
         Recent jobs dis-appear from the home page
+
+
+#### 5.4 Fixing  problem in 5.3       
+
+        modified:   README.md
+        modified:   apps/job/models.py
+        modified:   apps/main/views.py
+        modified:   templates/main/inc/recent_jobs.html
+        modified:   templates/main/index.html
