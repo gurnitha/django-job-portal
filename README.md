@@ -20,9 +20,17 @@
         modified:   apps/accounts/models.py
         modified:   config/settings.py
 
+
 #### 2.2 Cusomizing MyUser model, tegister MyUser model to admin and customizing admin display
 
         modified:   README.md
         modified:   apps/accounts/admin.py
 
+
+### ---------------------
+### 3. CUSTOM USER MODEL 
+### ---------------------
+
+
+### 3.1 Create a new app 'apps/job' and register it to project
 
