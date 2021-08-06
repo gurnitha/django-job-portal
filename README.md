@@ -88,3 +88,15 @@
         modified:   README.md
         modified:   apps/main/views.py
         modified:   templates/main/index.html
+
+
+#### 5.3 Retrieving number of jobs in each category and display them in home page
+
+        modified:   README.md
+        modified:   apps/main/views.py
+        modified:   templates/main/inc/recent_jobs.html
+        modified:   templates/main/index.html
+
+        NOTE:
+
+        Recent jobs dis-appear from the home page

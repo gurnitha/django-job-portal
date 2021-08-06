@@ -12,7 +12,8 @@ from apps.job.models import Job, Category
 # Homepage views
 class HomeView(ListView):
 	model 				= Job
-	context_object_name = 'jobs'	
+	context_object_name = 'jobs'
+	print(context_object_name)	
 	paginate_by 		= 3
 
 	# Filter job display with status published
@@ -26,6 +27,8 @@ class HomeView(ListView):
 		context = {
 			'categories':categories		
 		}
+		# print(context)
 		return context
+
 
 	template_name = 'main/index.html'
