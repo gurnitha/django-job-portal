@@ -131,6 +131,10 @@
         modified:   apps/accounts/views.py
 
 
+#### 6.3 User register form part 3 - Adding html template user_register.html
+
+        modified:   README.md
+        modified:   templates/accounts/user_register.html
 
 
 
