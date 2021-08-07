@@ -150,6 +150,11 @@
         modified:   templates/accounts/user_register.html
 
 
+#### 6.6 User register form part 6 - Making the input types
+
+        modified:   README.md
+        modified:   templates/accounts/user_register.html
+
 
 
 
