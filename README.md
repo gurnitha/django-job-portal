@@ -156,6 +156,10 @@
         modified:   templates/accounts/user_register.html
 
 
+#### 6.7 User register form part 7 - Showing the placeholders
+
+        modified:   README.md
+        modified:   templates/accounts/user_register.html
 
 
 
