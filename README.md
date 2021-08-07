@@ -111,9 +111,9 @@
         modified:   templates/main/index.html
 
 
-### -----------------------
-### 6. USERS REGISTRATIONS
-### -----------------------
+### -----------------------------
+### 6. USERS REGISTRATIONS FORM
+### -----------------------------
 
 
 #### 6.1 User register form part 1 - Urls-Views-Templates-Forms
@@ -178,6 +178,19 @@
 
         modified:   README.md
         modified:   templates/accounts/user_register.html
+
+
+#### 6.11 User register form part 12 - Adding csrf_token for security reason
+
+        modified:   README.md
+        modified:   templates/accounts/user_register.html
+
+
+#### 6.12 User register form part 12 - Adding form button
+
+        modified:   README.md
+        modified:   templates/accounts/user_register.html
+
 
 
 

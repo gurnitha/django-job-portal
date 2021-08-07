@@ -27,6 +27,8 @@
                     method="post" 
                     class="p-5 bg-white">
 
+                    {% csrf_token %}
+
                     <!-- Input fields -->
                     {% for field in form.visible_fields|slice:"5" %}
                     <div class="row form-group">
@@ -57,7 +59,17 @@
                         </div>
                     </div>
                     <!-- User types fields -->
-                    
+
+                    <!-- Form button -->
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input 
+                                type="submit" 
+                                value="Register" 
+                                class="btn btn-primary  py-2 px-5">
+                        </div>
+                    </div>
+                    <!-- Form button -->
                 </form>
 
             </div>
