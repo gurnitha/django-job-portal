@@ -168,7 +168,10 @@
         modified:   templates/accounts/user_register.html
 
 
+#### 6.9 User register form part 9 - Limiting the form fields to 5
 
+        modified:   README.md
+        modified:   templates/accounts/user_register.html
 
 
 
