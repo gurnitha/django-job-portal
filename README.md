@@ -124,9 +124,11 @@
         modified:   apps/accounts/views.py
         new file:   templates/accounts/user_register.html
 
+#### 6.2 User register form part 2 - Adding fields to UserRegisterForm class
 
-
-
+        modified:   README.md
+        modified:   apps/accounts/forms.py
+        modified:   apps/accounts/views.py
 
 
 
