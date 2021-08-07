@@ -174,6 +174,11 @@
         modified:   templates/accounts/user_register.html
 
 
+#### 6.10 User register form part 10 - Adding input user type
+
+        modified:   README.md
+        modified:   templates/accounts/user_register.html
+
 
 
 
