@@ -144,7 +144,10 @@
 
 
 
+#### 6.5 User register form part 5 - Showing the form's label
 
+        modified:   README.md
+        modified:   templates/accounts/user_register.html
 
 
 
