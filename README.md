@@ -192,6 +192,12 @@
         modified:   templates/accounts/user_register.html
 
 
+### ------------------
+### 7. REGISTER USERS
+### ------------------
+
+
+#### 7.1 Register users (employee or employer)
 
 
 
